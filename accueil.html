@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Divaglow</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="accueil.css" rel="stylesheet" type="text/css"> 
+</head>
+<body>
+    <nav>
+        <div class="topnav">
+            <ul>
+                <li><img src="logo.png" alt="logo-image-fille" id="logo"></li>
+                <li><div class="searchcontainer">
+                    <form action="#" method="get">
+                        <div class="search-container">
+                            <input type="text" class="search-bar" placeholder="Rechercher un produit...">
+                            <button type="submit" class="search-button">
+                                <i class="fa fa-search"></i>
+                            </button>
+                        </div>
+                    </form>
+                </div>
+                </li>
+                <li><div class="containerdrop">
+                    <div class="user-dropdown" >
+                        <button class="user-button">
+                            <i class="fas fa-user"></i> <!-- Icône utilisateur -->
+                            <i class="fas fa-chevron-down"></i> <!-- Flèche vers le bas -->
+                        </button>
+                        <div class="dropdown-content">
+                            <a href="connect.html">Se connecter</a>
+                            <a href="inscrire.html">S'inscrire</a>
+                        </div>
+                    </div>
+                </div>
+                </li>
+            </div>
+               <div class="sidenav">
+                    <ul>
+                    <li><a href="accueil.html"><i class="fas fa-home"></i> &nbsp;Accueil</a></li> <!-- Accueil -->
+                    <li><a href="boutique.html"><i class="fas fa-shopping-cart"></i> &nbsp;Boutique</a></li> <!-- Boutique -->
+                    <li><a href="apropos.html"><i class="fas fa-info-circle"></i> &nbsp;À propos</a></li> <!-- Qui sommes-nous -->
+                    <li><a href="contact.html"><i class="fas fa-envelope"></i> &nbsp;Contact</a></li> <!-- Contact -->
+                   </ul>
+                </div>
+    </nav>
+    <section>
+        <div class="slideshow-container">
+            <div class="slide fade">
+                <img src="premi.png" alt="Image 1">
+            </div>
+            <div class="slide fade">
+                <img src="demi.jpg" alt="Image 2">
+            </div>
+            <div class="slide fade">
+                <img src="tremi.jpg" alt="Image 3">
+            </div>
+    
+            <!-- Flèches de navigation -->
+            <a class="prev" onclick="changeSlide(-1)">&#10094;</a>
+            <a class="next" onclick="changeSlide(1)">&#10095;</a>
+        </div>
+    
+        <!-- Indicateurs -->
+        <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span> 
+            <span class="dot" onclick="currentSlide(2)"></span> 
+            <span class="dot" onclick="currentSlide(3)"></span> 
+        </div>
+    </section>
+    
+    <section>
+        <br><br>
+        <h1>Nouvelle collection: "L'Éclat Pur"</h1>
+        <br>
+       <p class="para1">Nous sommes ravis de vous présenter notre toute nouvelle gamme de cosmétiques: "L'Éclat Pur", fraîchement créée pour révéler votre beauté naturelle ! Élaborés avec des ingrédients de haute qualité, nos produits sont spécialement conçus pour offrir hydratation, éclat et douceur à tous les types de peau. Profitez des offres exclusives disponibles dès maintenant sur notre site !</p>
+       <div class="hero">
+        <div>
+          <h1>Promotion de 75%</h1>
+          <p>Collection "L'Éclat Pur"</p>
+          <a href="boutique.html" class="button">Voir Boutique</a>
+        </div>
+      </div>
+    </section>
+    <br><br>
+    <section>
+        <h2>Divaglow, parce que vous méritez le meilleur</h2><br>
+        <div class="content" >
+        <div style="margin-left: 5%; margin-top: 20px; height:100px;">
+            <video width="100%" controls>
+              <source src="pub.mp4" type="video/mp4">
+            </video>
+          </div>
+          <div class="testimonial-container">
+            <!-- Témoignage 1 -->
+            <div class="testimonial">
+              <img src="person1.png" alt="Photo de Lisa">
+              <p><span>Lisa, 28 ans</span>“J'utilise DivaGlow depuis un mois et ma peau est plus lumineuse que jamais. C'est devenu un incontournable de ma routine quotidienne !”</p>
+            </div>
+          
+            <!-- Témoignage 2 -->
+            <div class="testimonial">
+              <img src="person2.png" alt="Photo de Sophie">
+              <p><span>Sophie, 34 ans</span>“Le produit est incroyable ! Ma peau est plus douce et hydratée, et je vois une réelle différence en seulement quelques semaines.”</p>
+            </div>
+          </div>
+          </div>
+    </section>
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>Lieu</h4>
+                <p><i class="fas fa-map-marker-alt"></i> 123 Rue Analakely, Tananarive</p>
+            </div>
+            <div class="footer-section">
+                <h4>Contact</h4>
+                <p><i class="fas fa-phone"></i> +33 1 23 45 67 89</p>
+                <p><i class="fas fa-envelope"></i> divaglow@email.com</p>
+            </div>
+            <div class="footer-section">
+                <h4>Heures d'ouverture</h4>
+                <p><i class="fas fa-clock"></i> Lundi - Vendredi: 9h - 18h</p>
+                <p><i class="fas fa-clock"></i> Samedi: 10h - 16h</p>
+            </div>
+        </div>
+        <div class="social-media">
+            <h4>Suivez-nous</h4>
+            <a href="#"><img src="fb.png" alt="Facebook"></a>
+            <a href="#"><img src="insta.png" alt="Twitter"></a>
+            <a href="#"><img src="x.png" alt="Instagram"></a>
+        </div>
+    </footer>
+    <script src="accueil.js"></script>
+</body>
+</html>

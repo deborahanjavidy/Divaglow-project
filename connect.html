@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Divaglow</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="connect.css" rel="stylesheet" type="text/css"> 
+</head>
+<body>
+    <nav>
+        <div class="topnav">
+            <ul>
+                <li><img src="logo.png" alt="logo-image-fille" id="logo"></li>
+                <li><div class="searchcontainer">
+                    <form action="#" method="get">
+                        <div class="search-container">
+                            <input type="text" class="search-bar" placeholder="Rechercher un produit...">
+                            <button type="submit" class="search-button">
+                                <i class="fa fa-search"></i>
+                            </button>
+                        </div>
+                    </form>
+                </div>
+                </li>
+                <li><div class="containerdrop">
+                    <div class="user-dropdown" >
+                        <button class="user-button">
+                            <i class="fas fa-user"></i> <!-- Icône utilisateur -->
+                            <i class="fas fa-chevron-down"></i> <!-- Flèche vers le bas -->
+                        </button>
+                        <div class="dropdown-content">
+                            <a href="connect.html">Se connecter</a>
+                            <a href="inscrire.html">S'inscrire</a>
+                        </div>
+                    </div>
+                </div>
+                </li>
+            </div>
+               <div class="sidenav">
+                    <ul>
+                    <li><a href="accueil.html"><i class="fas fa-home"></i> &nbsp;Accueil</a></li> <!-- Accueil -->
+                    <li><a href="boutique.html"><i class="fas fa-shopping-cart"></i> &nbsp;Boutique</a></li> <!-- Boutique -->
+                    <li><a href="apropos.html"><i class="fas fa-info-circle"></i> &nbsp;À propos</a></li> <!-- Qui sommes-nous -->
+                    <li><a href="contact.html"><i class="fas fa-envelope"></i> &nbsp;Contact</a></li> <!-- Contact -->
+                   </ul>
+                </div>
+    </nav>
+    <section>
+        <div class="container">
+            <img src="ins.jpg!w700wp" alt="Background Image" class="background-image">
+            <div class="form-container">
+                <h2>Login</h2>
+                <form action="/submit" method="post">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="Enter Email" required>
+                    
+                    <label for="password">Password</label>
+                    <input type="password" id="password" name="password" placeholder="Enter Password" required>
+                    
+                    <button type="submit"  class="subbutton">Se connecter</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>Lieu</h4>
+                <p><i class="fas fa-map-marker-alt"></i> 123 Rue Analakely, Tananarive</p>
+            </div>
+            <div class="footer-section">
+                <h4>Contact</h4>
+                <p><i class="fas fa-phone"></i> +33 1 23 45 67 89</p>
+                <p><i class="fas fa-envelope"></i> divaglow@email.com</p>
+            </div>
+            <div class="footer-section">
+                <h4>Heures d'ouverture</h4>
+                <p><i class="fas fa-clock"></i> Lundi - Vendredi: 9h - 18h</p>
+                <p><i class="fas fa-clock"></i> Samedi: 10h - 16h</p>
+            </div>
+        </div>
+        <div class="social-media">
+            <h4>Suivez-nous</h4>
+            <a href="#"><img src="fb.png" alt="Facebook"></a>
+            <a href="#"><img src="insta.png" alt="Twitter"></a>
+            <a href="#"><img src="x.png" alt="Instagram"></a>
+        </div>
+    </footer>
+</body>
+</html>
