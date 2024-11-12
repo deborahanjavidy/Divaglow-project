@@ -1,40 +1,44 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title> Optima+</title>
-    <link rel="stylesheet" type="text/css" href="Boutiques.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Divaglow</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="accueil.css" rel="stylesheet" type="text/css"> 
+    <link href="Boutiques.css" rel="stylesheet">
 </head>
 <body>
-   <header> <nav>
-        <ul>
-            <li><img src="logo.png" alt="logo-image-fille" id="logo"></li>
-            <li><div class="searchcontainer">
-                <form action="#" method="get">
-                    <div class="search-container">
-                        <input type="text" class="search-bar" placeholder="Rechercher un produit...">
-                        <button type="submit" class="search-button">
-                            <i class="fa fa-search"></i>
+    <nav>
+        <div class="topnav">
+            <ul>
+                <li><img src="logo.png" alt="logo-image-fille" id="logo"></li>
+                <li><div class="searchcontainer">
+                    <form action="#" method="get">
+                        <div class="search-container">
+                            <input type="text" class="search-bar" placeholder="Rechercher un produit...">
+                            <button type="submit" class="search-button">
+                                <i class="fa fa-search"></i>
+                            </button>
+                        </div>
+                    </form>
+                </div>
+                </li>
+                <li><div class="containerdrop">
+                    <div class="user-dropdown" >
+                        <button class="user-button">
+                            <i class="fas fa-user"></i> <!-- Icône utilisateur -->
+                            <i class="fas fa-chevron-down"></i> <!-- Flèche vers le bas -->
                         </button>
-                    </div>
-                </form>
-            </div>
-            </li>
-            <li><div class="containerdrop">
-                <div class="user-dropdown" >
-                    <button class="user-button">
-                        <i class="fas fa-user"></i> 
-                        <i class="fas fa-chevron-down"></i> 
-                    </button>
-                    <div class="dropdown-content">
-                        <a href="connect.html">Se connecter</a>
-                        <a href="inscrire.html">S'inscrire</a>
+                        <div class="dropdown-content">
+                            <a href="connect.html">Se connecter</a>
+                            <a href="inscrire.html">S'inscrire</a>
+                        </div>
                     </div>
                 </div>
+                </li>
             </div>
-            </li>
-            </li>
-
-        </ul><div class="sidenav">
+               <div class="sidenav">
                     <ul>
                     <li><a href="accueil.html"><i class="fas fa-home"></i> &nbsp;Accueil</a></li> <!-- Accueil -->
                     <li><a href="boutique.html"><i class="fas fa-shopping-cart"></i> &nbsp;Boutique</a></li> <!-- Boutique -->
@@ -43,7 +47,7 @@
                    </ul>
                 </div>
     </nav>
-    </header>
+   <header>
     <img src="btqq.png.jpg" alt="btq"> 
     <h1> SOYEZ LES BIENVENUES SUR NOTRE BOUTIQUES DE COSMETIQUE 100% BIO, NOUS SOMMES A L'ECOUTE DE VOTRE CHOIX, MAIS AUSSI A DISPOSITION DE VOS ATTENTES.</h1> 
     <img src="btq2.png.png" alt="btq">
@@ -85,7 +89,10 @@
     </button>
     <p>POUR PLUS D'INFORMATION,VEUILLEZ-VOUS CONTACTE <a href="Contact.html">contact</a>
     </p>
-   
+   </header>
+</body>
+     
+       
     <footer>
         <div class="footer-content">
             <div class="footer-section">
@@ -110,7 +117,6 @@
             <a href="#"><img src="x.png" alt="Instagram"></a>
         </div>
     </footer>
-    <script src="boutiques.js"></script>
-
+    <script src="Boutiques.js"></script>
 </body>
 </html>
