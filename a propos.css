@@ -635,8 +635,9 @@ footer {
     height: 500px;
     ;
     position: relative;
-    top: 300px;
+    top: 500px;
     left: 200px;
+    margin-bottom: 200px;
 }
 
 body {
@@ -650,7 +651,7 @@ body {
 
 .Prix {
     position: relative;
-    top: 300px;
+    top: 500px;
     color: dimgrey;
     font-family: fantasy;
     font-size: 30px;
@@ -773,10 +774,39 @@ body {
 
 }
 
+.SPONSO {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 50px;
+}
+
 .arinana {
     position: relative;
-    left: 400px;
+    left: 300px;
     bottom: 120px;
+}
+
+.SP4 {
+    position: relative;
+    top: 500px;
+    right: 550px;
+}
+
+.or {
+    position: relative;
+    top: 250px;
+}
+
+.MI {
+    position: relative;
+    top: 250px;
+}
+
+.DERM {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
 }
 
 @media screen and (min-width:319px) {
@@ -789,7 +819,7 @@ body {
 
 . .clair {
     position: relative;
-    left: 600px;
+    left: 500px;
     bottom: 120px;
 }
 
